@@ -37,7 +37,7 @@
       , "level-packager"  : "~0.18.0"
     }
   , "devDependencies" : {
-        "tape"            : "*"
+        "tape"            : "4.6.1"
     }
   , "scripts"         : {
         "test"            : "node ./test.js"
