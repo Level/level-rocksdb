@@ -34,7 +34,7 @@
   , "main"            : "level-rocksdb.js"
   , "dependencies"    : {
         "rocksdb"         : "~0.10.0"
-      , "level-packager"  : "~0.18.0"
+      , "level-packager"  : "~1.2.1"
     }
   , "devDependencies" : {
         "tape"            : "*"
