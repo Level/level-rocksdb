@@ -34,7 +34,7 @@ db.put('name', 'Level', function (err) {
 })
 ```
 
-See **[LevelUP](https://github.com/rvagg/node-levelup)** and **[RocksDB](https://github.com/rvagg/node-leveldown/tree/rocksdb)** for more details.
+See **[LevelUP](https://github.com/level/levelup)** and **[RocksDB](https://github.com/level/rocksdb)** for more details.
 
 <a name="contributing"></a>
 Contributing
