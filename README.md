@@ -5,7 +5,7 @@ level-rocksdb
 
 **Fast & simple storage - a Node.js-style RocksDB wrapper**
 
-[![NPM](https://nodei.co/npm/level-rocksdb.svg)](https://nodei.co/npm/level-rocksdb/)
+[![NPM](https://nodei.co/npm/level-rocksdb.png)](https://nodei.co/npm/level-rocksdb/)
 
 [![Build Status](https://secure.travis-ci.org/level/level-rocksdb.svg)](http://travis-ci.org/level/level-rocksdb)
 
