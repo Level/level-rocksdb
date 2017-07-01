@@ -1,7 +1,7 @@
 {
   "name": "level-rocksdb",
   "description": "Fast & simple storage - a Node.js-style LevelDB wrapper (a convenience package bundling LevelUP & LevelDOWN) [RocksDB fork]",
-  "version": "0.18.0",
+  "version": "1.0.0",
   "contributors": [
     "Rod Vagg <r@va.gg> (https://github.com/rvagg)",
     "John Chesley <john@chesl.es> (https://github.com/chesles/)",
@@ -33,7 +33,7 @@
   ],
   "main": "level-rocksdb.js",
   "dependencies": {
-    "rocksdb": "1.0.0-pre1",
+    "rocksdb": "^1.0.0",
     "level-packager": "^1.2.1"
   },
   "devDependencies": {
