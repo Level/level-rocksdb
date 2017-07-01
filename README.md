@@ -5,9 +5,9 @@ level-rocksdb
 
 **Fast & simple storage - a Node.js-style RocksDB wrapper**
 
-[![NPM](https://nodei.co/npm/level-rocksdb.png)](https://nodei.co/npm/level-rocksdb/)
+[![NPM](https://nodei.co/npm/level-rocksdb.svg)](https://nodei.co/npm/level-rocksdb/)
 
-[![Build Status](https://secure.travis-ci.org/Level/level-rocksdb.png)](http://travis-ci.org/Level/level-rocksdb)
+[![Build Status](https://secure.travis-ci.org/level/level-rocksdb.svg)](http://travis-ci.org/level/level-rocksdb)
 
 This is a convenience package that bundles the current release of **[LevelUP](https://github.com/Level/levelup)** and **[RocksDB](https://github.com/Level/rocksdb)** and exposes LevelUP on its export.
 
