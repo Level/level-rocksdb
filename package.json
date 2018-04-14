@@ -38,12 +38,13 @@
     "node": ">=4"
   },
   "keywords": [
+    "rocksdb",
+    "level",
     "leveldb",
     "stream",
     "database",
     "db",
     "store",
-    "storage",
-    "json"
+    "storage"
   ]
 }
