@@ -15,7 +15,7 @@ A convenience package that:
 * bundles the current release of [`levelup`][levelup] and [`rocksdb`][rocksdb]
 * leverages encodings using [`encoding-down`][encoding-down]
 
-Use this package to avoid having to explicitly install `rocksdb` when you want to use `rocksdb` with `levelup`.
+Use this package to avoid having to explicitly install `rocksdb` when you want to use RocksDB with `levelup`. See also `level` which does the same for LevelDB.
 
 * [Usage](#usage)
 * [API](#api)
@@ -414,5 +414,6 @@ Level is licensed under the MIT license. All rights not explicitly granted in th
 
 [level-badge]: http://leveldb.org/img/badge.svg
 [levelup]: https://github.com/level/levelup
+[level]: https://github.com/level/level
 [rocksdb]: https://github.com/level/rocksdb
 [encoding-down]: https://github.com/level/encoding-down
