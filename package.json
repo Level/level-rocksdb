@@ -2,6 +2,11 @@
   "name": "level-rocksdb",
   "description": "Fast & simple storage - a Node.js-style LevelDB wrapper (a convenience package bundling LevelUP & LevelDOWN) [RocksDB fork]",
   "version": "1.0.1",
+  "license": "MIT",
+  "main": "level-rocksdb.js",
+  "scripts": {
+    "test": "node ./test.js"
+  },
   "contributors": [
     "Rod Vagg <r@va.gg> (https://github.com/rvagg)",
     "John Chesley <john@chesl.es> (https://github.com/chesles/)",
@@ -17,11 +22,21 @@
     "Pedro Teixeira <pedro.teixeira@gmail.com> (https://github.com/pgte)",
     "James Halliday <mail@substack.net> (https://github.com/substack)"
   ],
+  "dependencies": {
+    "rocksdb": "^2.0.0",
+    "level-packager": "^2.0.0"
+  },
+  "devDependencies": {
+    "tape": "*"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Level/level-rocksdb.git"
   },
   "homepage": "https://github.com/Level/level-rocksdb",
+  "engines": {
+    "node": ">=4"
+  },
   "keywords": [
     "leveldb",
     "stream",
@@ -30,20 +45,5 @@
     "store",
     "storage",
     "json"
-  ],
-  "main": "level-rocksdb.js",
-  "dependencies": {
-    "rocksdb": "^2.0.0",
-    "level-packager": "^2.0.0"
-  },
-  "devDependencies": {
-    "tape": "*"
-  },
-  "scripts": {
-    "test": "node ./test.js"
-  },
-  "license": "MIT",
-  "engines": {
-    "node": ">=4"
-  }
+  ]
 }
