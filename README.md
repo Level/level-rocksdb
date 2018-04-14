@@ -341,7 +341,7 @@ db.createReadStream({ keys: false, values: true })
 
 ## Promise Support
 
-`level` ships with native `Promise` support out of the box.
+`level-rocksdb` ships with native `Promise` support out of the box.
 
 Each function taking a callback also can be used as a promise, if the callback is omitted. This applies for:
 
@@ -351,7 +351,7 @@ Each function taking a callback also can be used as a promise, if the callback i
 - `db.batch(ops[, options])`
 - `db.batch().write()`
 
-The only exception is the `level` constructor itself, which if no callback is passed will lazily open the underlying store in the background.
+The only exception is the constructor, which if no callback is passed will lazily open the underlying store in the background.
 
 Example:
 
@@ -400,11 +400,11 @@ db.on('put', function (key, value) {
 
 ## Contributing
 
-**level-rocksdb** is an **OPEN Open Source Project**. This means that:
+`level-rocksdb` is an **OPEN Open Source Project**. This means that:
 
 > Individuals making significant and valuable contributions are given commit-access to the project to contribute as they see fit. This project is more like an open wiki than a standard guarded open source project.
 
-See the [CONTRIBUTING.md](https://github.com/Level/level/blob/master/CONTRIBUTING.md) file for more details.
+See the [CONTRIBUTING.md](https://github.com/Level/level-rocksdb/blob/master/CONTRIBUTING.md) file for more details.
 
 ## License
 
