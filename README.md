@@ -9,26 +9,32 @@
 [![dependencies](https://david-dm.org/Level/level-rocksdb.svg)](https://david-dm.org/level/level-rocksdb)
 [![npm](https://img.shields.io/npm/dm/level-rocksdb.svg)](https://www.npmjs.com/package/level-rocksdb)
 
-This is a convenience package that bundles the current release of **[LevelUP](https://github.com/Level/levelup)** and **[RocksDB](https://github.com/Level/rocksdb)** and exposes LevelUP on its export.
+A convenience package that:
 
-Use this package to avoid having to explicitly install RocksDB when you want to use RocksDB with LevelUP.
+* exports a function that returns a [`levelup instance`](https://github.com/level/levelup#ctor) when invoked
+* bundles the current release of [`levelup`][levelup] and [`rocksdb`][rocksdb]
+* leverages encodings using [`encoding-down`][encoding-down]
+
+Use this package to avoid having to explicitly install `rocksdb` when you want to use `rocksdb` with `levelup`.
+
+## Usage
 
 ```js
 var level = require('level-rocksdb')
 
 // 1) Create our database, supply location and options.
-//    This will create or open the underlying LevelDB store.
+//    This will create or open the underlying RocksDB store.
 var db = level('./mydb')
 
-// 2) put a key & value
+// 2) Put a key & value
 db.put('name', 'Level', function (err) {
   if (err) return console.log('Ooops!', err) // some kind of I/O error
 
-  // 3) fetch by key
+  // 3) Fetch by key
   db.get('name', function (err, value) {
     if (err) return console.log('Ooops!', err) // likely the key was not found
 
-    // ta da!
+    // Ta da!
     console.log('name=' + value)
   })
 })
@@ -55,3 +61,6 @@ Copyright (c) 2012-2017 **Level** [contributors](https://github.com/level/commun
 Level is licensed under the MIT license. All rights not explicitly granted in the MIT license are reserved. See the included `LICENSE.md` file for more details.
 
 [level-badge]: http://leveldb.org/img/badge.svg
+[levelup]: https://github.com/level/levelup
+[rocksdb]: https://github.com/level/rocksdb
+[encoding-down]: https://github.com/level/encoding-down
