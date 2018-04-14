@@ -15,7 +15,7 @@ A convenience package that:
 * bundles the current release of [`levelup`][levelup] and [`rocksdb`][rocksdb]
 * leverages encodings using [`encoding-down`][encoding-down]
 
-Use this package to avoid having to explicitly install `rocksdb` when you want to use RocksDB with `levelup`. See also `level` which does the same for LevelDB.
+Use this package to avoid having to explicitly install `rocksdb` when you want to use RocksDB with `levelup`. See also [`level`][level] which does the same for LevelDB.
 
 * [Usage](#usage)
 * [API](#api)
