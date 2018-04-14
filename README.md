@@ -1,13 +1,13 @@
-level-rocksdb
-=============
+# level-rocksdb
 
-<img alt="LevelDB Logo" height="100" src="http://leveldb.org/img/logo.svg">
+> Fast & simple storage. A Node.js-style RocksDB wrapper.
 
-**Fast & simple storage - a Node.js-style RocksDB wrapper**
-
-[![NPM](https://nodei.co/npm/level-rocksdb.png)](https://nodei.co/npm/level-rocksdb/)
-
-[![Build Status](https://secure.travis-ci.org/Level/level-rocksdb.svg)](http://travis-ci.org/Level/level-rocksdb) [![Greenkeeper badge](https://badges.greenkeeper.io/Level/level-rocksdb.svg)](https://greenkeeper.io/)
+[![level badge][level-badge]](https://github.com/level/awesome)
+[![npm](https://img.shields.io/npm/v/level-rocksdb.svg)](https://www.npmjs.com/package/level-rocksdb)
+![Node version](https://img.shields.io/node/v/level-rocksdb.svg)
+[![Build Status](https://secure.travis-ci.org/Level/level-rocksdb.svg)](http://travis-ci.org/Level/level-rocksdb)
+[![dependencies](https://david-dm.org/Level/level-rocksdb.svg)](https://david-dm.org/level/level-rocksdb)
+[![npm](https://img.shields.io/npm/dm/level-rocksdb.svg)](https://www.npmjs.com/package/level-rocksdb)
 
 This is a convenience package that bundles the current release of **[LevelUP](https://github.com/Level/levelup)** and **[RocksDB](https://github.com/Level/rocksdb)** and exposes LevelUP on its export.
 
@@ -53,3 +53,5 @@ License &amp; Copyright
 Copyright (c) 2012-2017 **Level** [contributors](https://github.com/level/community#contributors).
 
 Level is licensed under the MIT license. All rights not explicitly granted in the MIT license are reserved. See the included `LICENSE.md` file for more details.
+
+[level-badge]: http://leveldb.org/img/badge.svg
