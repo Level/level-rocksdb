@@ -8,6 +8,7 @@
 [![Build Status](https://secure.travis-ci.org/Level/level-rocksdb.svg)](http://travis-ci.org/Level/level-rocksdb)
 [![dependencies](https://david-dm.org/Level/level-rocksdb.svg)](https://david-dm.org/level/level-rocksdb)
 [![npm](https://img.shields.io/npm/dm/level-rocksdb.svg)](https://www.npmjs.com/package/level-rocksdb)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 A convenience package that:
 

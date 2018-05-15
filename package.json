@@ -5,7 +5,7 @@
   "license": "MIT",
   "main": "level-rocksdb.js",
   "scripts": {
-    "test": "node ./test.js"
+    "test": "standard && node test.js"
   },
   "contributors": [
     "Rod Vagg <r@va.gg> (https://github.com/rvagg)",
@@ -27,6 +27,7 @@
     "level-packager": "^2.0.0"
   },
   "devDependencies": {
+    "standard": "^11.0.1",
     "tape": "*"
   },
   "repository": {
