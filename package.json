@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/Level/level-rocksdb",
   "engines": {
-    "node": ">=4"
+    "node": ">=6"
   },
   "keywords": [
     "rocksdb",

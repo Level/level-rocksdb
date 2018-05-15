@@ -18,8 +18,7 @@ before_install:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then export JOBS=4; fi
 
 node_js:
-  - 10
-  - 9
-  - 8
   - 6
-  - 4
+  - 8
+  - 9
+  - 10
