@@ -23,7 +23,7 @@
     "James Halliday <mail@substack.net> (https://github.com/substack)"
   ],
   "dependencies": {
-    "rocksdb": "^2.0.0",
+    "rocksdb": "^3.0.0",
     "level-packager": "^2.0.0"
   },
   "devDependencies": {
