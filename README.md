@@ -25,6 +25,8 @@ Use this package to avoid having to explicitly install `rocksdb` when you want t
 * [Contributing](#contributing)
 * [License](#license)
 
+**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md).
+
 ## Usage
 
 ```js
