@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "standard": "^11.0.1",
-    "tape": "*"
+    "tape": "^4.9.0"
   },
   "repository": {
     "type": "git",
