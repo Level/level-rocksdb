@@ -411,9 +411,7 @@ See the [CONTRIBUTING.md](https://github.com/Level/level-rocksdb/blob/master/CON
 
 ## License
 
-Copyright (c) 2012-present **Level** [contributors](https://github.com/level/community#contributors).
-
-Level is licensed under the MIT license. All rights not explicitly granted in the MIT license are reserved. See the included `LICENSE.md` file for more details.
+[MIT](./LICENSE.md) © 2013-present `level-rocksdb` [Contributors](./CONTRIBUTORS.md).
 
 [level-badge]: http://leveldb.org/img/badge.svg
 [levelup]: https://github.com/level/levelup
