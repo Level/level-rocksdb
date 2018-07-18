@@ -5,13 +5,16 @@
   "license": "MIT",
   "main": "level-rocksdb.js",
   "scripts": {
-    "test": "standard && node test.js"
+    "test": "standard && nyc node test.js",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
     "rocksdb": "^3.0.0",
     "level-packager": "^4.0.0"
   },
   "devDependencies": {
+    "coveralls": "^3.0.2",
+    "nyc": "^12.0.2",
     "standard": "^11.0.1",
     "tape": "^4.9.0"
   },
