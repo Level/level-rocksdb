@@ -15,7 +15,7 @@
   "devDependencies": {
     "coveralls": "^3.0.2",
     "nyc": "^12.0.2",
-    "standard": "^11.0.1",
+    "standard": "^12.0.0",
     "tape": "^4.9.0"
   },
   "repository": {
