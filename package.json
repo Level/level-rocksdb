@@ -9,7 +9,7 @@
     "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
-    "rocksdb": "^3.0.0",
+    "rocksdb": "3.0.1",
     "level-packager": "^4.0.0"
   },
   "devDependencies": {
