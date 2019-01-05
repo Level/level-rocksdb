@@ -412,7 +412,7 @@ See the [CONTRIBUTING.md](https://github.com/Level/level-rocksdb/blob/master/CON
 
 ## License
 
-[MIT](./LICENSE.md) © 2013-present `level-rocksdb` [Contributors](./CONTRIBUTORS.md).
+[MIT](LICENSE.md) © 2013-present [Contributors](CONTRIBUTORS.md).
 
 [level-badge]: http://leveldb.org/img/badge.svg
 [levelup]: https://github.com/level/levelup
