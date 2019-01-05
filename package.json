@@ -1,31 +1,37 @@
 {
   "name": "level-rocksdb",
-  "description": "Fast & simple storage - a Node.js-style RocksDB wrapper (a convenience package bundling LevelUP & RocksDB)",
   "version": "3.0.1",
+  "description": "Fast & simple storage - a Node.js-style RocksDB wrapper (a convenience package bundling LevelUP & RocksDB)",
   "license": "MIT",
   "main": "level-rocksdb.js",
   "scripts": {
-    "test": "standard && nyc node test.js",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "test": "standard && hallmark && nyc node test.js",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "hallmark": "hallmark --fix"
   },
   "dependencies": {
-    "rocksdb": "^3.0.0",
-    "level-packager": "^4.0.0"
+    "level-packager": "^4.0.0",
+    "rocksdb": "^3.0.0"
   },
   "devDependencies": {
     "coveralls": "^3.0.2",
+    "hallmark": "^0.1.0",
+    "level-community": "^3.0.0",
     "nyc": "^12.0.2",
     "standard": "^12.0.0",
     "tape": "^4.9.0"
+  },
+  "hallmark": {
+    "community": "level-community",
+    "ignore": [
+      "README.md"
+    ]
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/Level/level-rocksdb.git"
   },
   "homepage": "https://github.com/Level/level-rocksdb",
-  "engines": {
-    "node": ">=6"
-  },
   "keywords": [
     "rocksdb",
     "level",
@@ -35,5 +41,8 @@
     "db",
     "store",
     "storage"
-  ]
+  ],
+  "engines": {
+    "node": ">=6"
+  }
 }
