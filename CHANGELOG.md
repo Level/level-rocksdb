@@ -1,6 +1,6 @@
 # Changelog
 
-## [Unreleased]
+## [Unreleased][unreleased]
 
 ## [3.0.1] - 2018-06-24
 
@@ -66,7 +66,7 @@
 
 **Historical Note** Technically not the first release. Earlier versions were published in 2013.
 
-[Unreleased]: https://github.com/level/level-rocksdb/compare/v3.0.1...HEAD
+[unreleased]: https://github.com/level/level-rocksdb/compare/v3.0.1...HEAD
 
 [3.0.1]: https://github.com/level/level-rocksdb/compare/v3.0.0...v3.0.1
 
