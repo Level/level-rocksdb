@@ -20,6 +20,12 @@
     "standard": "^12.0.0",
     "tape": "^4.9.0"
   },
+  "hallmark": {
+    "community": "level-community",
+    "ignore": [
+      "README.md"
+    ]
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/Level/level-rocksdb.git"
