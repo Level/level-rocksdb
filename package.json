@@ -5,8 +5,9 @@
   "license": "MIT",
   "main": "level-rocksdb.js",
   "scripts": {
-    "test": "standard && nyc node test.js",
-    "coverage": "nyc report --reporter=text-lcov | coveralls"
+    "test": "standard && hallmark && nyc node test.js",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "hallmark": "hallmark --fix"
   },
   "dependencies": {
     "level-packager": "^4.0.0",
