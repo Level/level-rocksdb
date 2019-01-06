@@ -2,11 +2,10 @@
 
 > Fast & simple storage. A Node.js-style RocksDB wrapper.
 
-[![level badge][level-badge]](https://github.com/level/awesome)
+[![level badge][level-badge]](https://github.com/Level/awesome)
 [![npm](https://img.shields.io/npm/v/level-rocksdb.svg?label=&logo=npm)](https://www.npmjs.com/package/level-rocksdb)
 [![Node version](https://img.shields.io/node/v/level-rocksdb.svg)](https://www.npmjs.com/package/level-rocksdb)
-[![Build Status](https://secure.travis-ci.org/Level/level-rocksdb.svg)](http://travis-ci.org/Level/level-rocksdb)
-[![dependencies](https://david-dm.org/Level/level-rocksdb.svg)](https://david-dm.org/level/level-rocksdb)
+[![Travis](https://img.shields.io/travis/Level/level-rocksdb.svg?logo=travis&label=)](https://travis-ci.org/Level/level-rocksdb)
 [![npm](https://img.shields.io/npm/dm/level-rocksdb.svg?label=dl)](https://www.npmjs.com/package/level-rocksdb)
 [![Coverage Status](https://coveralls.io/repos/github/Level/level-rocksdb/badge.svg)](https://coveralls.io/github/Level/level-rocksdb)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
@@ -15,7 +14,7 @@
 
 A convenience package that:
 
-* exports a function that returns a [`levelup instance`](https://github.com/level/levelup#ctor) when invoked
+* exports a function that returns a [`levelup instance`](https://github.com/Level/levelup#ctor) when invoked
 * bundles the current release of [`levelup`][levelup] and [`rocksdb`][rocksdb]
 * leverages encodings using [`encoding-down`][encoding-down]
 
@@ -429,7 +428,7 @@ To sustain [`Level`](https://github.com/Level) and its activities, become a back
 [MIT](LICENSE.md) © 2013-present [Contributors](CONTRIBUTORS.md).
 
 [level-badge]: http://leveldb.org/img/badge.svg
-[levelup]: https://github.com/level/levelup
-[level]: https://github.com/level/level
-[rocksdb]: https://github.com/level/rocksdb
-[encoding-down]: https://github.com/level/encoding-down
+[levelup]: https://github.com/Level/levelup
+[level]: https://github.com/Level/level
+[rocksdb]: https://github.com/Level/rocksdb
+[encoding-down]: https://github.com/Level/encoding-down
