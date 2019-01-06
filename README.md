@@ -3,13 +3,15 @@
 > Fast & simple storage. A Node.js-style RocksDB wrapper.
 
 [![level badge][level-badge]](https://github.com/level/awesome)
-[![npm](https://img.shields.io/npm/v/level-rocksdb.svg)](https://www.npmjs.com/package/level-rocksdb)
-![Node version](https://img.shields.io/node/v/level-rocksdb.svg)
+[![npm](https://img.shields.io/npm/v/level-rocksdb.svg?label=&logo=npm)](https://www.npmjs.com/package/level-rocksdb)
+[![Node version](https://img.shields.io/node/v/level-rocksdb.svg)](https://www.npmjs.com/package/level-rocksdb)
 [![Build Status](https://secure.travis-ci.org/Level/level-rocksdb.svg)](http://travis-ci.org/Level/level-rocksdb)
 [![dependencies](https://david-dm.org/Level/level-rocksdb.svg)](https://david-dm.org/level/level-rocksdb)
-[![npm](https://img.shields.io/npm/dm/level-rocksdb.svg)](https://www.npmjs.com/package/level-rocksdb)
+[![npm](https://img.shields.io/npm/dm/level-rocksdb.svg?label=dl)](https://www.npmjs.com/package/level-rocksdb)
 [![Coverage Status](https://coveralls.io/repos/github/Level/level-rocksdb/badge.svg)](https://coveralls.io/github/Level/level-rocksdb)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![Backers on Open Collective](https://opencollective.com/level/backers/badge.svg?color=orange)](#backers)
+[![Sponsors on Open Collective](https://opencollective.com/level/sponsors/badge.svg?color=orange)](#sponsors)
 
 A convenience package that:
 
@@ -409,6 +411,18 @@ db.on('put', function (key, value) {
 > Individuals making significant and valuable contributions are given commit-access to the project to contribute as they see fit. This project is more like an open wiki than a standard guarded open source project.
 
 See the [Contribution Guide](https://github.com/Level/community/blob/master/CONTRIBUTING.md) for more details.
+
+## Donate
+
+To sustain [`Level`](https://github.com/Level) and its activities, become a backer or sponsor on [Open Collective](https://opencollective.com/level). Your logo or avatar will be displayed on our 28+ [GitHub repositories](https://github.com/Level), [npm](https://www.npmjs.com/) packages and (soon) [our website](http://leveldb.org). 💖
+
+### Backers
+
+[![Open Collective backers](https://opencollective.com/level/backers.svg?width=890)](https://opencollective.com/level)
+
+### Sponsors
+
+[![Open Collective sponsors](https://opencollective.com/level/sponsors.svg?width=890)](https://opencollective.com/level)
 
 ## License
 
