@@ -427,7 +427,7 @@ To sustain [`Level`](https://github.com/Level) and its activities, become a back
 
 [MIT](LICENSE.md) © 2013-present [Contributors](CONTRIBUTORS.md).
 
-[level-badge]: http://leveldb.org/img/badge.svg
+[level-badge]: https://leveljs.org/img/badge.svg
 [levelup]: https://github.com/Level/levelup
 [level]: https://github.com/Level/level
 [rocksdb]: https://github.com/Level/rocksdb
