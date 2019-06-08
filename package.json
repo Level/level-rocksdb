@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "level-packager": "^4.0.0",
-    "rocksdb": "^3.0.0"
+    "rocksdb": "^4.0.0"
   },
   "devDependencies": {
     "coveralls": "^3.0.2",
