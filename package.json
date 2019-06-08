@@ -12,7 +12,7 @@
     "prepublishOnly": "npm run dependency-check"
   },
   "dependencies": {
-    "level-packager": "^4.0.0",
+    "level-packager": "^5.0.1",
     "rocksdb": "^4.0.0"
   },
   "devDependencies": {
