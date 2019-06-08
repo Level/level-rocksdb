@@ -46,6 +46,6 @@
     "storage"
   ],
   "engines": {
-    "node": ">=6"
+    "node": ">=8.6.0"
   }
 }
