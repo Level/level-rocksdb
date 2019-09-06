@@ -2,8 +2,6 @@
 
 _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 
-## [Unreleased][unreleased]
-
 ## [4.0.0] - 2019-06-08
 
 ### Changed
@@ -92,8 +90,6 @@ _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 ## 1.0.0 - 2017-07-01
 
 **Historical Note** Technically not the first release. Earlier versions were published in 2013.
-
-[unreleased]: https://github.com/level/level-rocksdb/compare/v4.0.0...HEAD
 
 [4.0.0]: https://github.com/level/level-rocksdb/compare/v3.0.1...v4.0.0
 
