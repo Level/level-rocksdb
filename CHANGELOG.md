@@ -2,8 +2,6 @@
 
 _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 
-## [Unreleased][unreleased]
-
 ## [4.0.0] - 2019-06-08
 
 ### Changed
@@ -93,14 +91,12 @@ _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 
 **Historical Note** Technically not the first release. Earlier versions were published in 2013.
 
-[unreleased]: https://github.com/level/level-rocksdb/compare/v4.0.0...HEAD
+[4.0.0]: https://github.com/Level/level-rocksdb/compare/v3.0.1...v4.0.0
 
-[4.0.0]: https://github.com/level/level-rocksdb/compare/v3.0.1...v4.0.0
+[3.0.1]: https://github.com/Level/level-rocksdb/compare/v3.0.0...v3.0.1
 
-[3.0.1]: https://github.com/level/level-rocksdb/compare/v3.0.0...v3.0.1
+[3.0.0]: https://github.com/Level/level-rocksdb/compare/v2.0.0...v3.0.0
 
-[3.0.0]: https://github.com/level/level-rocksdb/compare/v2.0.0...v3.0.0
+[2.0.0]: https://github.com/Level/level-rocksdb/compare/v1.0.1...v2.0.0
 
-[2.0.0]: https://github.com/level/level-rocksdb/compare/v1.0.1...v2.0.0
-
-[1.0.1]: https://github.com/level/level-rocksdb/compare/v1.0.0...v1.0.1
+[1.0.1]: https://github.com/Level/level-rocksdb/compare/v1.0.0...v1.0.1
