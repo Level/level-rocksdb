@@ -5,7 +5,7 @@
 [![level badge][level-badge]](https://github.com/Level/awesome)
 [![npm](https://img.shields.io/npm/v/level-rocksdb.svg?label=&logo=npm)](https://www.npmjs.com/package/level-rocksdb)
 [![Node version](https://img.shields.io/node/v/level-rocksdb.svg)](https://www.npmjs.com/package/level-rocksdb)
-[![Travis](https://img.shields.io/travis/Level/level-rocksdb.svg?logo=travis&label=)](https://travis-ci.org/Level/level-rocksdb)
+[![Travis](https://img.shields.io/travis/com/Level/level-rocksdb.svg?logo=travis&label=)](https://travis-ci.com/Level/level-rocksdb)
 [![npm](https://img.shields.io/npm/dm/level-rocksdb.svg?label=dl)](https://www.npmjs.com/package/level-rocksdb)
 [![Coverage Status](https://coveralls.io/repos/github/Level/level-rocksdb/badge.svg)](https://coveralls.io/github/Level/level-rocksdb)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
