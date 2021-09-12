@@ -1,5 +1,19 @@
 # Changelog
 
+## [5.0.0] - 2021-09-12
+
+_If you are upgrading: please see [`UPGRADING.md`](UPGRADING.md)._
+
+### Changed
+
+- **Breaking:** bump `rocksdb` from 4.x to [5.x](https://github.com/Level/rocksdb/releases/tag/v5.0.0) ([`a02f4b5`](https://github.com/Level/level-rocksdb/commit/a02f4b5)) (Vincent Weevers)
+- **Breaking:** bump `level-packager` from 5.x to [6.x](https://github.com/Level/packager/releases/tag/v6.0.0) ([#73](https://github.com/Level/level-rocksdb/issues/73)) ([`a0b5ea6`](https://github.com/Level/level-rocksdb/commit/a0b5ea6)) (Vincent Weevers)
+
+### Removed
+
+- **Breaking:** drop Node.js 8 ([Level/community#98](https://github.com/Level/community/issues/98)) ([`ec94d45`](https://github.com/Level/level-rocksdb/commit/ec94d45)) (Vincent Weevers)
+- Remove legacy range options from README ([Level/community#86](https://github.com/Level/community/issues/86)) ([`6d08202`](https://github.com/Level/level-rocksdb/commit/6d08202)) (Vincent Weevers).
+
 ## [4.0.0] - 2019-06-08
 
 _If you are upgrading: please see [`UPGRADING.md`](UPGRADING.md)._
@@ -94,6 +108,8 @@ _If you are upgrading: please see [`UPGRADING.md`](UPGRADING.md)._
 ## [1.0.0] - 2017-07-01
 
 _Technically not the first release. Earlier versions were published in 2013._
+
+[5.0.0]: https://github.com/Level/level-rocksdb/releases/tag/v5.0.0
 
 [4.0.0]: https://github.com/Level/level-rocksdb/releases/tag/v4.0.0
 

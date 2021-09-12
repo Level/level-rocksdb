@@ -1,6 +1,6 @@
 {
   "name": "level-rocksdb",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Fast & simple storage - a Node.js-style RocksDB wrapper (a convenience package bundling LevelUP & RocksDB)",
   "license": "MIT",
   "main": "level-rocksdb.js",
