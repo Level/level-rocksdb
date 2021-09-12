@@ -18,7 +18,7 @@
   ],
   "dependencies": {
     "level-packager": "^6.0.0",
-    "rocksdb": "^4.0.0"
+    "rocksdb": "^5.1.0"
   },
   "devDependencies": {
     "dependency-check": "^3.3.0",
