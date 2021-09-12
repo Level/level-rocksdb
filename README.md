@@ -3,40 +3,34 @@
 > Fast & simple storage. A Node.js-style RocksDB wrapper.
 
 [![level badge][level-badge]](https://github.com/Level/awesome)
-[![npm](https://img.shields.io/npm/v/level-rocksdb.svg?label=&logo=npm)](https://www.npmjs.com/package/level-rocksdb)
+[![npm](https://img.shields.io/npm/v/level-rocksdb.svg)](https://www.npmjs.com/package/level-rocksdb)
 [![Node version](https://img.shields.io/node/v/level-rocksdb.svg)](https://www.npmjs.com/package/level-rocksdb)
-[![Travis](https://img.shields.io/travis/com/Level/level-rocksdb.svg?logo=travis&label=)](https://travis-ci.com/Level/level-rocksdb)
-[![npm](https://img.shields.io/npm/dm/level-rocksdb.svg?label=dl)](https://www.npmjs.com/package/level-rocksdb)
-[![Coverage Status](https://coveralls.io/repos/github/Level/level-rocksdb/badge.svg)](https://coveralls.io/github/Level/level-rocksdb)
-[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
-[![Backers on Open Collective](https://opencollective.com/level/backers/badge.svg?color=orange)](#backers)
-[![Sponsors on Open Collective](https://opencollective.com/level/sponsors/badge.svg?color=orange)](#sponsors)
+[![Test](https://img.shields.io/github/workflow/status/Level/level-rocksdb/Test?label=test)](https://github.com/Level/level-rocksdb/actions/workflows/test.yml)
+[![Coverage](https://img.shields.io/codecov/c/github/Level/level-rocksdb?label=&logo=codecov&logoColor=fff)](https://codecov.io/gh/Level/level-rocksdb)
+[![Standard](https://img.shields.io/badge/standard-informational?logo=javascript&logoColor=fff)](https://standardjs.com)
+[![Common Changelog](https://common-changelog.org/badge.svg)](https://common-changelog.org)
+[![Donate](https://img.shields.io/badge/donate-orange?logo=open-collective&logoColor=fff)](https://opencollective.com/level)
 
-A convenience package that:
+## Introduction
 
-* exports a function that returns a [`levelup instance`](https://github.com/Level/levelup#ctor) when invoked
-* bundles the current release of [`levelup`][levelup] and [`rocksdb`][rocksdb]
-* leverages encodings using [`encoding-down`][encoding-down]
+This is a convenience package that:
+
+- exports a function that returns a [`levelup instance`](https://github.com/Level/levelup#ctor) when invoked
+- bundles the current release of [`levelup`][levelup] and [`rocksdb`][rocksdb]
+- leverages encodings using [`encoding-down`][encoding-down]
 
 Use this package to avoid having to explicitly install `rocksdb` when you want to use RocksDB with `levelup`. See also [`level`][level] which does the same for LevelDB.
 
-* [Usage](#usage)
-* [API](#api)
-* [Promise Support](#promise-support)
-* [Events](#events)
-* [Contributing](#contributing)
-* [License](#license)
+## Usage
 
 **If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md).
 
-## Usage
-
 ```js
-var level = require('level-rocksdb')
+const level = require('level-rocksdb')
 
 // 1) Create our database, supply location and options.
 //    This will create or open the underlying RocksDB store.
-var db = level('./mydb')
+const db = level('./mydb')
 
 // 2) Put a key & value
 db.put('name', 'Level', function (err) {
@@ -50,6 +44,13 @@ db.put('name', 'Level', function (err) {
     console.log('name=' + value)
   })
 })
+```
+
+With `async/await`:
+
+```js
+await db.put('name', 'Level')
+const value = await db.get('name')
 ```
 
 ## API
@@ -413,19 +414,11 @@ See the [Contribution Guide](https://github.com/Level/community/blob/master/CONT
 
 ## Donate
 
-To sustain [`Level`](https://github.com/Level) and its activities, become a backer or sponsor on [Open Collective](https://opencollective.com/level). Your logo or avatar will be displayed on our 28+ [GitHub repositories](https://github.com/Level) and [npm](https://www.npmjs.com/) packages. 💖
-
-### Backers
-
-[![Open Collective backers](https://opencollective.com/level/backers.svg?width=890)](https://opencollective.com/level)
-
-### Sponsors
-
-[![Open Collective sponsors](https://opencollective.com/level/sponsors.svg?width=890)](https://opencollective.com/level)
+Support us with a monthly donation on [Open Collective](https://opencollective.com/level) and help us continue our work.
 
 ## License
 
-[MIT](LICENSE.md) © 2013-present [Contributors](CONTRIBUTORS.md).
+[MIT](LICENSE)
 
 [level-badge]: https://leveljs.org/img/badge.svg
 [levelup]: https://github.com/Level/levelup

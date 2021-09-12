@@ -6,26 +6,28 @@
   "main": "level-rocksdb.js",
   "scripts": {
     "test": "standard && hallmark && nyc node test.js",
-    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "coverage": "nyc report -r lcovonly",
     "hallmark": "hallmark --fix",
     "dependency-check": "dependency-check . test.js",
     "prepublishOnly": "npm run dependency-check"
   },
+  "files": [
+    "level-rocksdb.js",
+    "CHANGELOG.md",
+    "UPGRADING.md"
+  ],
   "dependencies": {
     "level-packager": "^6.0.0",
     "rocksdb": "^4.0.0"
   },
   "devDependencies": {
-    "coveralls": "^3.0.2",
     "dependency-check": "^3.3.0",
     "hallmark": "^3.1.0",
-    "level-community": "^3.0.0",
     "nyc": "^15.0.0",
     "standard": "^14.0.0",
     "tape": "^5.0.1"
   },
   "hallmark": {
-    "community": "level-community",
     "ignore": [
       "README.md"
     ]

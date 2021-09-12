@@ -1,8 +1,8 @@
 # Changelog
 
-_**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
-
 ## [4.0.0] - 2019-06-08
+
+_If you are upgrading: please see [`UPGRADING.md`](UPGRADING.md)._
 
 ### Changed
 
@@ -45,6 +45,8 @@ _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 
 ## [3.0.0] - 2018-05-24
 
+_If you are upgrading: please see [`UPGRADING.md`](UPGRADING.md)._
+
 ### Changed
 
 - Upgrade `rocksdb` to `^3.0.0` ([**@ralphtheninja**](https://github.com/ralphtheninja))
@@ -61,6 +63,8 @@ _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 - Remove node 4 from Travis ([**@ralphtheninja**](https://github.com/ralphtheninja))
 
 ## [2.0.0] - 2018-04-17
+
+_If you are upgrading: please see [`UPGRADING.md`](UPGRADING.md)._
 
 ### Changed
 
@@ -87,16 +91,18 @@ _**If you are upgrading:** please see [`UPGRADING.md`](UPGRADING.md)._
 
 - Update links in README ([**@mcollina**](https://github.com/mcollina))
 
-## 1.0.0 - 2017-07-01
+## [1.0.0] - 2017-07-01
 
-**Historical Note** Technically not the first release. Earlier versions were published in 2013.
+_Technically not the first release. Earlier versions were published in 2013._
 
-[4.0.0]: https://github.com/Level/level-rocksdb/compare/v3.0.1...v4.0.0
+[4.0.0]: https://github.com/Level/level-rocksdb/releases/tag/v4.0.0
 
-[3.0.1]: https://github.com/Level/level-rocksdb/compare/v3.0.0...v3.0.1
+[3.0.1]: https://github.com/Level/level-rocksdb/releases/tag/v3.0.1
 
-[3.0.0]: https://github.com/Level/level-rocksdb/compare/v2.0.0...v3.0.0
+[3.0.0]: https://github.com/Level/level-rocksdb/releases/tag/v3.0.0
 
-[2.0.0]: https://github.com/Level/level-rocksdb/compare/v1.0.1...v2.0.0
+[2.0.0]: https://github.com/Level/level-rocksdb/releases/tag/v2.0.0
 
-[1.0.1]: https://github.com/Level/level-rocksdb/compare/v1.0.0...v1.0.1
+[1.0.1]: https://github.com/Level/level-rocksdb/releases/tag/v1.0.1
+
+[1.0.0]: https://github.com/Level/level-rocksdb/releases/tag/v1.0.0
